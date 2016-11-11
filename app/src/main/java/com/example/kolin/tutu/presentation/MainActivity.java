@@ -170,7 +170,6 @@ public class MainActivity extends AppCompatActivity implements TimetableFragment
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         Log.d("myLogs", "requestCode = " + requestCode + ", resultCode = " + resultCode);
-        // если пришло ОК
         if (resultCode == RESULT_OK) {
             List<Fragment> fragments = getSupportFragmentManager().getFragments();
             switch (requestCode) {

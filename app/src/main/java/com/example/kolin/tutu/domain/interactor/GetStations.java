@@ -25,6 +25,8 @@ import rx.functions.Func1;
 
 public class GetStations extends CloudUseCase {
 
+    private static final String TAG = GetStations.class.getSimpleName();
+
     private Repository repository;
     @Direction.TypeDirection
     private int currentDirection;
@@ -52,7 +54,7 @@ public class GetStations extends CloudUseCase {
                     @Override
                     public void call(List<Station> stations) {
                         for (Station s : stations)
-                            Log.e("TAGAGAGA", s.getStationTitle());
+                            Log.e(TAG, s.getStationTitle());
                     }
                 });
     }

@@ -121,7 +121,7 @@ public class TimetableFragment extends Fragment implements Updatable<String> {
         onClickListener = null;
         btnFrom.setOnClickListener(null);
         btnTo.setOnClickListener(null);
-
+        btnDate.setOnClickListener(null);
         super.onDetach();
     }
 
