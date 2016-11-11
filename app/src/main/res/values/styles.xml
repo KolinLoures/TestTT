@@ -1,0 +1,48 @@
+<resources>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#FF4081</item>
+        <!-- Blue -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base" />
+
+
+    <style name="NavHeaderPrimaryText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@string/Roboto_Medium</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="NavHeaderSupportText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@string/Roboto_Light</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="RecyclerViewPrimaryText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@string/Roboto_Medium</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="RecyclerViewSupportText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@string/Roboto_Regular</item>
+        <item name="android:textColor">@color/colorGrey500</item>
+    </style>
+
+    <style name="InfoFragmentPrimaryText">
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@string/Roboto_Medium</item>
+    </style>
+
+</resources>
